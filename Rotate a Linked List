@@ -1,0 +1,35 @@
+class Solution {
+public:
+    Node* rotate(Node* head, int k) {
+        if (head == NULL || head->next == NULL || k == 0)
+            return head;
+
+        // Step 1: Find the length of the linked list
+        Node* current = head;
+        int length = 1;
+        while (current->next != NULL) {
+            current = current->next;
+            length++;
+        }
+
+        // Step 2: Handle k greater than length
+        k = k % length;
+        if (k == 0)
+            return head;
+
+        // Step 3: Traverse to the kth node
+        Node* kthNode = head;
+        for (int i = 1; i < k; i++) {
+            kthNode = kthNode->next;
+        }
+
+        // Step 4: Update head and break the link
+        Node* newHead = kthNode->next;
+        kthNode->next = NULL;
+
+        // Step 5: Attach the old tail to the old head
+        current->next = head;
+
+        return newHead;
+    }
+};
