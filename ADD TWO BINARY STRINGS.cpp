@@ -4,7 +4,7 @@ class Solution {
   public: 
     string addBinary(string& s1, string& s2) { 
         // your code here
-        int i=s1.size()-1,j=s2.size()-1,carry=0;
+        int i=s1.size()-1,j=s2.size()-1,carry=0; 
         
         string result="";
         
