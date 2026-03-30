@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     Node* LCA(Node* root, Node* n1, Node* n2) {
         if (!root) return nullptr;
 
