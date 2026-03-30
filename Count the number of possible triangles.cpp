@@ -2,7 +2,7 @@
 
 // A triangle with three given sides is only possible if sum of any two sides is always greater than the third side.
 
-class Solution {
+class Solution { 
   public:
     // Function to count the number of possible triangles.
     int countTriangles(vector<int>& arr) {
