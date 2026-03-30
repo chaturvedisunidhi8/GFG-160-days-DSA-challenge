@@ -4,7 +4,7 @@ struct compare {
     bool operator()(Node* a, Node* b) {
         return a->data > b->data;
     }
-};
+}; 
 
 class Solution {
 public:
