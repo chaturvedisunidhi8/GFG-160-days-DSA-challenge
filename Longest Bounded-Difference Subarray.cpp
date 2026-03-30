@@ -1,6 +1,6 @@
 
 class Solution {
-public:
+public: 
     vector<int> longestSubarray(vector<int>& arr, int x) {
         multiset<int> window;
         int left = 0, start = 0, maxLen = 0;
