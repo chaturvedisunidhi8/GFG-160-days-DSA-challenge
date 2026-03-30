@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
 public:
     double power(double b, int e) {
         if (e == 0) return 1.0;
