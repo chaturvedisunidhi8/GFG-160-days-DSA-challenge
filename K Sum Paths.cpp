@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     void countPaths(Node* node, int k, vector<int>& path, int &count) {
         if (!node) return;
  
