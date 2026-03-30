@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     void backtrack(string &s, vector<bool> &used, string &current, set<string> &result) {
         if (current.size() == s.size()) {
             result.insert(current);
