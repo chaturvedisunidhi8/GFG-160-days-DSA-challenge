@@ -4,7 +4,7 @@ public:
         if (current.size() == s.size()) {
             result.insert(current);
             return;
-        }
+        } 
 
         for (int i = 0; i < s.size(); ++i) {
             if (used[i]) continue;
