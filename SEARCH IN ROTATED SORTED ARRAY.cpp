@@ -9,7 +9,7 @@ class Solution {
     int mid=st+(end-st)/2;        
     if(arr[mid]==key){
         return mid;
-    }
+    } 
         if(arr[st]<=arr[mid]){
             if(arr[st]<=key && key<=arr[mid]){
                 end=mid-1;
