@@ -28,4 +28,4 @@ class Solution {
         }
         return result.substr(pos);
     }
-};
+}; 
