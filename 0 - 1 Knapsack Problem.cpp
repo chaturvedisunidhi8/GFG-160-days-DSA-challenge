@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     int knapsack(int W, vector<int> &val, vector<int> &wt) {
         int n = val.size();
         vector<vector<int>> dp(n + 1, vector<int>(W + 1, 0));
