@@ -3,7 +3,7 @@
 //Your task is to assign stalls to k cows such that the minimum distance between any two of them is the maximum possible.
 
 
-
+ 
 class Solution {
   public:
 
