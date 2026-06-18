@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
 public:
     // Helper function to validate BST
     bool isBSTUtil(Node* node, int min, int max) {
