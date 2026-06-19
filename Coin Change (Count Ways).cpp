@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     long long int count(vector<int>& coins, int sum) {
         int N = coins.size();
         vector<long long int> dp(sum + 1, 0);
